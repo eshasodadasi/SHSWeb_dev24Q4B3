@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+                color:white;
+                margin: 0px;
+                display: flex;
+                flex-direction:column;
+            }
+
+            header{
+                background-color:red;
+                flex: 1;
+                min-height: 5vh;
+            }
+
+            #contentContainer{
+                display:flex;
+            }
+
+            aside{
+                flex:1;
+            }
+
+            ul{
+                list-style-type: none;
+                padding-left: 0px;
+                text-align:center;
+            }
+
+            .sideBar{
+                font-size: 20px;
+                padding-top: 1opx;
+                padding-bottom: 10px;
+            }
+
+            .sideBar:hover{
+                background: grey;
+            }
+
+            a{
+                text-decoration: none;
+                color: goldenrod;
+            }
+
+            main{
+                background-color:blue;
+                flex: 8;
+                min-height: 85vh;
+            }
+
+            footer{
+                background-color:green;
+                flex: 1;
+            }
+
+            .floatLeft{
+                float:left;
+            }
+
+            .floatRight{
+                float:right;
+            }
+
+            #teamImg{
+                width: 25%;
+            }
+        
+        </style>
+    </head>
+
+    <body>
+        <header>
+            Header.
+            <nav>
+                nav
+            </nav>
+        </header>
+       
+        <div id="contentContainer">
+            <aside>
+                <ul>
+                    <li class="sideBar"><a href="one.html">One</a></li>
+                    <li class="sideBar"><a href="two.html">Two</a></li>
+                    <li class="sideBar"><a href="Four.html">Four</a></li>
+                </ul>
+
+
+            </aside>
+            <main>Main</main>
+        </div>
+
+        <footer>Footer</footer>
+    </body>
+</html>
